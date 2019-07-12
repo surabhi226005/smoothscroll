@@ -7,16 +7,16 @@ function polyfill() {
   var d = document;
 
   // return if scroll behavior is supported and polyfill is not forced
-  if (
-    'scrollBehavior' in d.documentElement.style &&
-    w.__forceSmoothScrollPolyfill__ !== true
-  ) {
-    return;
-  }
+//   if (
+//     'scrollBehavior' in d.documentElement.style &&
+//     w.__forceSmoothScrollPolyfill__ !== true
+//   ) {
+//     return;
+//   }
 
   // globals
   var Element = w.HTMLElement || w.Element;
-  var SCROLL_TIME = 468;
+  var SCROLL_TIME = 1500;
 
   // object gathering original scroll methods
   var original = {
