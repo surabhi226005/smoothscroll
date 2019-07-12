@@ -7,7 +7,6 @@ npm_debug.log
 npm-debug.log
 
 # ignore dist folder
-dist
 
 # OS X
 .DS_Store
